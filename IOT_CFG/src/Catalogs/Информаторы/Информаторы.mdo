@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c7fb177-b750-448e-a52e-9299510e7a18">
+  <producedTypes>
+    <objectType typeId="8072067c-c8c1-49a9-8849-e0949fccac8c" valueTypeId="cfd35d5f-512e-40a9-9423-c9a85372cc6c"/>
+    <refType typeId="79abae50-8ed0-4929-9996-d9a2eecc16cc" valueTypeId="b25945f8-c5bd-45b9-97de-3ea67748e39e"/>
+    <selectionType typeId="627e4594-19a1-45c2-90fe-1debcdbcb557" valueTypeId="9f6df02d-bebd-4e67-8206-1e33a05e5540"/>
+    <listType typeId="ba1f9665-76bd-4320-9e60-2c37c9e10317" valueTypeId="092a3090-0389-47b1-a67b-f8fe0be76b3f"/>
+    <managerType typeId="0c461b23-0b1e-40d1-9f96-d7f8eddfe243" valueTypeId="2bac494c-9289-417a-b1ff-39b456fe32ba"/>
+  </producedTypes>
+  <name>Информаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информаторы</value>
+  </synonym>
+  <comment>предоставляют данные в систему</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Информаторы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Информаторы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Информатор</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список информаторов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

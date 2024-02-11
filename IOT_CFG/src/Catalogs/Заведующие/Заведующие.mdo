@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1886626e-54df-4a07-96aa-9fd64e5fb65a">
+  <producedTypes>
+    <objectType typeId="bf2f5093-7285-4e67-8804-02a410047c93" valueTypeId="a1adc4b0-493c-40f2-beb2-299e402e2692"/>
+    <refType typeId="6308786e-15ed-4cf2-b193-3829aa3d3dd8" valueTypeId="8726f9cb-7a32-42d0-94cc-f98ddd2c092a"/>
+    <selectionType typeId="2acce288-20fb-4f08-8a3f-2ec833aa56f6" valueTypeId="fec20509-e951-4ad1-9403-60bdc2270835"/>
+    <listType typeId="1d08a8cd-4fd1-4f1c-82f4-aa38f8657e12" valueTypeId="f091b0c0-61ae-4840-8dfa-99c68a3f5711"/>
+    <managerType typeId="98760fae-26d1-45f3-8658-40c8e3144caf" valueTypeId="8751a550-ed16-478d-928a-19e713eb91e2"/>
+  </producedTypes>
+  <name>Заведующие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заведующие</value>
+  </synonym>
+  <comment>управляют системой автоматически</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Заведующие.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Заведующие.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заведующий</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список заведующих</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d833102-1dad-4f6e-991d-a1862b6b2961">
+  <producedTypes>
+    <objectType typeId="39f5d951-e33f-42dd-b55f-3c7453cbefc8" valueTypeId="3090d005-c2f7-4391-8cf5-92e4262e82ef"/>
+    <refType typeId="3dbe229a-1b34-430a-b819-f7f3b0acc4da" valueTypeId="d8256c71-f76c-460c-a999-02ba22f9170c"/>
+    <selectionType typeId="6bfd6254-085b-4c36-bbee-4629e277e8d6" valueTypeId="010cf681-a957-46d6-b0f5-36d7f2ff4c01"/>
+    <listType typeId="03d70104-389d-414b-aec0-e6d49fab2630" valueTypeId="0271a859-8e22-4f2e-a17e-a15d75eb4fe2"/>
+    <managerType typeId="beed2191-0f3d-4cc1-a7dd-b65aecaef77d" valueTypeId="2765bba8-b9b8-420d-be33-bd4bf0d11f0e"/>
+  </producedTypes>
+  <name>Связные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связные</value>
+  </synonym>
+  <comment>узлы соединяющие оъекты</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Связные.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Связные.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Свзной</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список связных</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

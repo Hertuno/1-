@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cb6dddd-38ec-4844-b013-8c1722442779">
+  <producedTypes>
+    <objectType typeId="01bece29-9b27-4e1e-9224-1e37aed7b0af" valueTypeId="bff9a121-fac7-43b2-bd01-5871816919df"/>
+    <refType typeId="6772c2e9-c9e7-496c-bf22-a39cfbcead74" valueTypeId="f01b92b1-b220-4543-8fb5-b83bc945c920"/>
+    <selectionType typeId="91ef1506-f5ae-44bd-8c75-c224177371c3" valueTypeId="0563331d-480c-4b9b-b18e-ab5ce01fe280"/>
+    <listType typeId="a9477c94-9059-4ee7-aa89-dbd77d061862" valueTypeId="42a4efd0-0339-41cd-8dd1-13a6c4130833"/>
+    <managerType typeId="36bb683a-6574-44db-98db-cbe5fc228921" valueTypeId="3f8a314f-43e2-40d0-8144-3572c2db9b83"/>
+  </producedTypes>
+  <name>Исполнители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнители</value>
+  </synonym>
+  <comment>осуществляют команды системы</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Исполнители.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Исполнители.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Исполнитель</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список исполнителей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
