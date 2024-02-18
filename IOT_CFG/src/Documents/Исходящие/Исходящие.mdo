@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e1c331d-55b6-436d-9c2f-dc9301a434cb">
+  <producedTypes>
+    <objectType typeId="e94fbb29-45fa-466a-8692-f50ed1781961" valueTypeId="c7dbf784-7e09-4106-94d1-f69f95a6336c"/>
+    <refType typeId="4c1f2e89-9975-48a5-a867-ad23ecb2523a" valueTypeId="a39b2aa2-d916-42e4-a1b6-d5cae3bc7353"/>
+    <selectionType typeId="ad6ff7a6-c124-4eb2-a378-eaa1abc88e60" valueTypeId="7ce2b428-5535-426f-bf7e-70ffa6c0a077"/>
+    <listType typeId="9e5622ef-13ba-49c4-8450-749706c941ef" valueTypeId="4af2f058-72aa-40a3-afa7-64d8be10739b"/>
+    <managerType typeId="93205f58-d4d7-4e62-b19f-19ce734a3c54" valueTypeId="fdd2dddd-cfb9-4d47-bbba-addf80548406"/>
+  </producedTypes>
+  <name>Исходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Исходящие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Исходящий</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список исходящих</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="fb773aaf-4e65-48e7-9e43-5c8f7a7195d8">
+    <name>ТипИсходящего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип исходящего</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипИсходящего</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

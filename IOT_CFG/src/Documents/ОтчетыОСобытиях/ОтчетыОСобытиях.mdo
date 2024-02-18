@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb5c1268-9030-4368-8276-85b702ce341c">
+  <producedTypes>
+    <objectType typeId="9a4957ba-5508-4f9e-a6c4-21adc3a8a830" valueTypeId="d6044f23-0c43-4727-8869-a6351166710e"/>
+    <refType typeId="9d82f1c3-2d72-49bc-8dbf-50693172f647" valueTypeId="87d4c707-1b09-4fee-a0b4-8a386d644718"/>
+    <selectionType typeId="d6600b53-79c8-4a54-997d-ed7fd98d5453" valueTypeId="1b084462-d2f2-4c40-936e-3af06bdc6f57"/>
+    <listType typeId="b0c8efdb-090e-443d-89ae-2fc9fd2ad432" valueTypeId="72eadf4f-693d-465a-8925-ca6476943391"/>
+    <managerType typeId="a7504399-5523-45df-b735-8af2ebf8b00e" valueTypeId="63634da4-7b88-4ab3-99d5-0e2b4443c1fe"/>
+  </producedTypes>
+  <name>ОтчетыОСобытиях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты о событиях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтчетыОСобытиях.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отчет о событиях</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список отчетов о событиях</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

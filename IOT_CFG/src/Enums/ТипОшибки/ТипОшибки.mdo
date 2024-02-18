@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b43714e2-1ca3-462d-a2c2-5ae680562cf3">
+  <producedTypes>
+    <refType typeId="523bffcd-78e8-40d3-be19-652fb8729a4d" valueTypeId="cd3f3fc8-a6ad-4bfa-b06d-f120a27874cc"/>
+    <listType typeId="28deb86f-225e-49cb-a888-7d757dd771e2" valueTypeId="943688ea-d992-4a38-b09b-6d3a16f5eaec"/>
+    <managerType typeId="94e8d0ec-63a9-4520-9da0-0b9477caa85f" valueTypeId="40c0ce8c-2e77-4a92-9a60-51e1c8764a47"/>
+  </producedTypes>
+  <name>ТипОшибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип ошибки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

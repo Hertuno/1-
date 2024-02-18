@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10f17a83-eae9-4bbb-858c-d6ec58120cb3">
+  <producedTypes>
+    <refType typeId="f0eb6b82-e9cf-4073-b2f8-76c89e4fceef" valueTypeId="61934a5d-8551-4bf7-a9f4-c1ebe634fafd"/>
+    <listType typeId="4dcda477-e7cd-402e-9f40-bd818e8c1784" valueTypeId="b9b3f3c7-b72d-49df-b54d-f9a5f954535a"/>
+    <managerType typeId="c3ce53ee-111f-4841-b793-8f988c0de736" valueTypeId="084834cb-8176-4e0a-a277-bcdc545faee3"/>
+  </producedTypes>
+  <name>ТипАгента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип агента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3de367f7-cb66-4d24-a207-b9f03df1aaad">
+    <name>Устройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устройство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a210683e-59ea-411b-815f-395b8091101f">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

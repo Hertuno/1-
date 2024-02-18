@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5221536-a9fc-4e1b-b892-09524fb5f636">
+  <producedTypes>
+    <refType typeId="d822af25-c934-428e-b72b-7447ff83999a" valueTypeId="8f7e5b43-ce1e-493c-93fe-5024ad8b3f8c"/>
+    <listType typeId="a5884fae-a326-4e0e-88ab-1d9fc67c866f" valueTypeId="f2b0f39d-3438-429a-9430-406d783a8aa8"/>
+    <managerType typeId="3756a27b-05f4-4226-838f-2aac25821d60" valueTypeId="6eeae80b-1c61-4073-9f4d-0dc5f2b74ba2"/>
+  </producedTypes>
+  <name>ТипЗаведующего</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип заведующего</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f6b56d5-ef08-42d1-9c47-13f831e948ab">
+    <name>Периодический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15e4124c-89ed-44ea-8013-88d54860ced9">
+    <name>Условный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da92a70b-bc99-4af0-8913-308c99498c41">
+    <name>Безусловный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безусловный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

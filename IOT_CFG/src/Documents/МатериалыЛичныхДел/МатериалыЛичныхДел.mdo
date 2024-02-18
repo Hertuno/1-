@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b117618-dde0-41d8-a023-2f279384e67c">
+  <producedTypes>
+    <objectType typeId="9585fc49-ee93-473a-91d0-a7a700bbb37b" valueTypeId="f3fb964d-12e1-4f60-91ac-fbe4deb44b54"/>
+    <refType typeId="8ca9ef97-e6e4-44df-9e94-11d1f4350b69" valueTypeId="2b412cc7-d18e-4378-8a6d-47151e35b8c1"/>
+    <selectionType typeId="55a604db-da6c-4529-bf25-cbcf8e92e60d" valueTypeId="0409488a-30fe-4b0e-9a08-ef40d8649eb2"/>
+    <listType typeId="02ef70d1-b6a4-47bc-a4ca-4f374d998011" valueTypeId="483e0ef3-58c7-401e-bd41-a4c435713a80"/>
+    <managerType typeId="ceb6952c-6011-4326-b852-53a2349ccbad" valueTypeId="54851bcc-b980-469f-8170-20891525cb5a"/>
+  </producedTypes>
+  <name>МатериалыЛичныхДел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы личных дел</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.МатериалыЛичныхДел.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Материал личного дела</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Материалы личных дел</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

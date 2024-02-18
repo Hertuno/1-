@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cb1cbae-b6f1-400e-97bf-943c2b21d293">
+  <producedTypes>
+    <objectType typeId="8fdd1d18-d382-46b0-9278-30c35b290d1d" valueTypeId="2a489a2c-12c8-4505-88fa-616a846edf54"/>
+    <refType typeId="f1ad4a2a-b8fe-48f3-814d-2eb5aec62deb" valueTypeId="0bc78a35-68e3-4130-b80f-4f159b913968"/>
+    <selectionType typeId="9f9c6ea7-7d97-4d64-a8cc-07b254d98116" valueTypeId="fe983eee-2fe4-4a62-a8d0-3d4d0bca876d"/>
+    <listType typeId="da133ec9-e36d-48e0-b26e-0e28410bd0f8" valueTypeId="98a5a5cb-7f7d-462d-a1bf-63c086e3b057"/>
+    <managerType typeId="26140b1c-adec-4224-b6f2-8a11d927957c" valueTypeId="596e33ad-7d83-4355-bd58-c9b63b8910a7"/>
+  </producedTypes>
+  <name>Пространство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пространство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пространство.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пространство.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пространство</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список пространств</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="49d4fce8-c9ef-4a0c-804e-1046dfeecdca">
+    <name>ТипПространства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип пространства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

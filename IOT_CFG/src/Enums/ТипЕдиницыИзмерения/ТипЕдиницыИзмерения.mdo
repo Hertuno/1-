@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a997e4a-ef90-42b6-af3f-635662ec56ca">
+  <producedTypes>
+    <refType typeId="2bd5e435-2c18-4cb8-bc90-ac8a38cf7ed8" valueTypeId="c647aa1d-6f60-494e-b875-3efd57bec51b"/>
+    <listType typeId="361563db-1d43-4cd4-86b9-35bedb10dc02" valueTypeId="0b006871-9a5c-4096-8f01-17e781bf37f3"/>
+    <managerType typeId="49cd42d3-b4b3-43ad-979e-68ac663fe601" valueTypeId="9d43a754-42a8-45a5-8b4c-5d04ef0381e5"/>
+  </producedTypes>
+  <name>ТипЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип единицы измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9b7279e1-8a87-4518-9519-e28a13d36e97">
+    <name>Секунды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секунды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9edc9c27-1df3-4c94-a7f5-6e1c6e4d3590">
+    <name>Градусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Градусы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de3cb59c-7226-4843-9f26-bc96c0a1f8e9">
+    <name>Цикл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цикл</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

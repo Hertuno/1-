@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b2672bb-69b7-4567-9ae9-574c12b3415e">
+  <name>ОтделКонтроляЗаУтройсвтами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел контроля за утройсвтами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

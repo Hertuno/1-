@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9c1f76f-4bac-4530-8fc3-f8f7e6cbbcb8">
+  <producedTypes>
+    <objectType typeId="7f8319f2-0fa0-4534-8b46-0408f9c7646e" valueTypeId="0d3b1aa8-c816-4595-b9ee-6efc7bf79f05"/>
+    <refType typeId="5bf3d6ff-6b57-4d01-b4d9-228f6fcaef9b" valueTypeId="a6d45e3c-2ad0-4d7c-93d3-3745efef5eba"/>
+    <selectionType typeId="af36ce1a-7f08-46ef-8157-cd8b5933a0be" valueTypeId="9225e023-baa4-40ab-bc52-02293f237c3c"/>
+    <listType typeId="8d422d88-0fe3-4c84-8467-14db858662e6" valueTypeId="f5b06b49-2089-463a-8e82-b727a2754f0d"/>
+    <managerType typeId="228b3bef-7df9-48a6-ae6c-242c12d8c8d1" valueTypeId="06c273b6-0881-4228-88bc-3bcb16b73f10"/>
+  </producedTypes>
+  <name>Ошибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Ошибки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ошибка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список ошибок</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="74ef6c53-b955-4b1c-991b-fa8ebf8e6f60">
+    <name>ТипОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ошибки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипОшибки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

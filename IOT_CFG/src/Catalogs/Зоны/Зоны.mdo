@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef546050-af50-46f7-8a24-3328cb0b9431">
+  <producedTypes>
+    <objectType typeId="954bd3b1-4821-4541-b331-986575cf7698" valueTypeId="a5e7304d-fe76-4912-98e0-7458ae1fb1d0"/>
+    <refType typeId="08f014c5-bdb0-44ea-b3a9-e05874c01ec8" valueTypeId="8a09df3a-e99b-408b-90e8-f54ff16a5f37"/>
+    <selectionType typeId="dd23f653-04cf-4a2e-a914-8eaabb8858a8" valueTypeId="b71a1267-b557-4475-8101-c9eaa5a74db3"/>
+    <listType typeId="fec14e69-ef71-47f8-a7c1-f98abd2fb033" valueTypeId="d7257d05-831f-425b-8a1e-b3d42523480c"/>
+    <managerType typeId="4e019c83-5388-4656-99d2-109cf445f7f8" valueTypeId="13f49c50-3281-4868-99b6-3ef3eaccb7dc"/>
+  </producedTypes>
+  <name>Зоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Зоны.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Зоны.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Зона</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список зон</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4cda5584-6606-4700-9343-f1bac5cddbc2">
+    <name>ТипЗоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип зоны</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипЗоны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

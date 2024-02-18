@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f693dacd-d1b0-408e-bda0-4be4e37837cc">
+  <producedTypes>
+    <objectType typeId="b594c235-6f93-4553-be29-472982229f08" valueTypeId="a37edf95-4a48-4924-8d56-d9dba2abd81b"/>
+    <refType typeId="97463ec9-7829-45cb-a046-d02d25bd8e24" valueTypeId="efb628b7-fdf9-4a6e-b20e-c0f67963fcc7"/>
+    <selectionType typeId="62952614-980b-472a-9b95-20814a569846" valueTypeId="82cba63b-6edf-4528-8075-d99b6fdf6bc4"/>
+    <listType typeId="7749aa82-828e-4bfe-a915-5d05c9c10cef" valueTypeId="55f6b200-d32f-4d9d-8b3d-171fa9d18b16"/>
+    <managerType typeId="112f9300-36d7-4d76-b6ed-42d1f9807708" valueTypeId="d041e245-d02f-4a09-b816-6365a1b915cf"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.События.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Событие</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список событий</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ba14dd49-3f76-491f-8a4f-2f5d1fe5a438">
+    <name>ТипСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

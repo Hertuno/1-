@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2ddcadc-2d64-45a1-bee6-27e1d0c00096">
+  <producedTypes>
+    <refType typeId="b70541d4-50e7-4886-bc50-51632e6c0d4b" valueTypeId="cf765f5e-1632-41b0-9a7f-0bc316913c74"/>
+    <listType typeId="856d3c9b-7635-41d8-91b8-7c572d478b6f" valueTypeId="07051478-9796-42a5-8aba-7a3372a3f599"/>
+    <managerType typeId="27017231-c27c-4831-b875-f9860df541ef" valueTypeId="e29b15c9-cf2f-4523-b789-106fd5a1b3c3"/>
+  </producedTypes>
+  <name>ТипСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип события</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0ed4fbf-7094-42e3-a026-db03a962c747">
+  <producedTypes>
+    <refType typeId="9ec4c397-ba7e-423d-a3d9-6e18d54d9cfd" valueTypeId="75dc5ee2-b9a4-4721-a323-6363bfb40437"/>
+    <listType typeId="95dab2b2-70bb-4cca-8987-fee9d723626a" valueTypeId="d9e7742f-e6e1-41f1-a25d-2c51f9332a74"/>
+    <managerType typeId="8fdb4ac5-36ee-49c2-9221-01930dfd5167" valueTypeId="4452157e-92f0-4193-8fb2-b0f7d39fa6cb"/>
+  </producedTypes>
+  <name>ТипСвязного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип связного</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16c56fbe-0c7c-46ab-aa54-bd10beb79e4c">
+    <name>Устройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устройство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70d606d4-79a6-4682-85c4-a055177cc54c">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d28dbd1d-42f9-4fbf-bab4-418019a6de8d">
+  <producedTypes>
+    <refType typeId="edbf28e1-48db-4d5b-add5-7b93c4dd9f6c" valueTypeId="d4e283c3-b354-4516-8924-af73c4ef3f08"/>
+    <listType typeId="9171cffa-eacb-4a2d-98f6-ca0612156fa8" valueTypeId="b51b56cb-88a4-4702-8cd9-8b8adc990a65"/>
+    <managerType typeId="5905abf8-6442-490e-9d06-ffed40fffa92" valueTypeId="cbb5af4c-295b-4336-9b5d-ceb9cb817d4b"/>
+  </producedTypes>
+  <name>ТипЗоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип зоны</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

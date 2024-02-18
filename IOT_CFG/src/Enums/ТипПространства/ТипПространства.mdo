@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f219e7f-5ff1-445f-aaf1-311661dc0797">
+  <producedTypes>
+    <refType typeId="42d5da9d-1373-4ea9-b960-a9c27e9de481" valueTypeId="49ed1292-531b-42d9-96be-0b94da231475"/>
+    <listType typeId="506576af-ec3f-42e1-b44d-ff911a30e0d8" valueTypeId="c32e7f64-fccd-4fb8-8422-3bd49d293632"/>
+    <managerType typeId="6faffef1-38db-49b1-8014-476fbb651498" valueTypeId="1524b923-c3db-4705-8a9c-8b5db06453fe"/>
+  </producedTypes>
+  <name>ТипПространства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип пространства</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92080d5a-1e63-4e38-a8b7-eec16085f731">
+    <name>Строение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="862c80cd-f3f6-49a4-821d-b9337936943d">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff853460-d8fc-4e55-927e-c33c217beb07">
+    <name>Территория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территория</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

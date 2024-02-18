@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f1900c1-2407-49ec-955b-18bac599ab63">
+  <producedTypes>
+    <objectType typeId="c6b7e8e7-9836-48e8-8258-39faa2507b6b" valueTypeId="6ef69a3f-0adc-4263-9938-717463cbf43a"/>
+    <refType typeId="2817e48a-b683-4527-aa0b-162eac7d023b" valueTypeId="007f5fe3-4522-442d-b2c1-4be200e7f678"/>
+    <selectionType typeId="c1a1a066-07e4-4347-b23a-e372853f0726" valueTypeId="238676b5-28c9-4452-90d8-02a54c1e2e07"/>
+    <listType typeId="e62b2fbd-e19d-4e9c-8387-b33a55b7b348" valueTypeId="ab44b343-c033-4267-abc9-75c92ed67b12"/>
+    <managerType typeId="2d404476-a9f1-465a-94a6-c28295c24b74" valueTypeId="06268c08-832f-4e20-9df7-7d6d7ed0f34e"/>
+  </producedTypes>
+  <name>Входящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Входящие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Входящий</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список входящих</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c4d45d43-4136-477b-a058-122160bbb797">
+    <name>ТипВходящего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип входящего</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипВходящего</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

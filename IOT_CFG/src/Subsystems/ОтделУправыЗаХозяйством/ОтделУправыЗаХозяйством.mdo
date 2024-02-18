@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8475cf9-6917-47f6-b750-39738f7be7f7">
+  <name>ОтделУправыЗаХозяйством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдел управы за хозяйством</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

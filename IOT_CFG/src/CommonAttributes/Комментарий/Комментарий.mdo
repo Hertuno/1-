@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08eed69c-5aba-491c-bb62-79dbbe799308">
+  <name>Комментарий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарий</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Catalog.Агенты</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ЕдиницыИзмерения</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Информаторы</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Заведующие</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Исполнители</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Зоны</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Связные</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

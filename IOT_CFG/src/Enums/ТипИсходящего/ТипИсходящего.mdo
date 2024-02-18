@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="917a60d3-b2f2-483e-bb63-8c3f211cd6c3">
+  <producedTypes>
+    <refType typeId="ad1bda2e-d232-41b5-a83f-9cae63b36321" valueTypeId="15763de5-9474-4210-a39e-5c8ac08668f7"/>
+    <listType typeId="9c13b0b2-3486-464c-aa3d-5fd9c3f05dc4" valueTypeId="eac74814-c1df-484c-b084-7b66e8766b1d"/>
+    <managerType typeId="4b4f475a-f078-472b-bbb9-e2ad9e75ae46" valueTypeId="f7c51b43-2af2-417d-b97d-6f59c2d4897e"/>
+  </producedTypes>
+  <name>ТипИсходящего</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип исходящего</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
