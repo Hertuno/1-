@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cb6dddd-38ec-4844-b013-8c1722442779">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cb6dddd-38ec-4844-b013-8c1722442779">
   <producedTypes>
     <objectType typeId="01bece29-9b27-4e1e-9224-1e37aed7b0af" valueTypeId="bff9a121-fac7-43b2-bd01-5871816919df"/>
     <refType typeId="6772c2e9-c9e7-496c-bf22-a39cfbcead74" valueTypeId="f01b92b1-b220-4543-8fb5-b83bc945c920"/>
@@ -39,4 +39,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="79dace73-63f8-4729-a5b0-cf8dfc093157">
+    <name>ТипИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип исполнителя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипИсполнителя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
